@@ -76,20 +76,7 @@
     Desktop Entry Specification</ulink>, which in turn are inspired by
     Microsoft Windows <filename>.ini</filename> files.</para>
 
-    <para>Boolean arguments used in these settings files can be
-    written in various formats. For positive settings, the strings
-    <option>1</option>, <option>yes</option>, <option>true</option>
-    and <option>on</option> are equivalent. For negative settings, the
-    strings <option>0</option>, <option>no</option>,
-    <option>false</option> and <option>off</option> are
-    equivalent.</para>
-
-    <para>Empty lines and lines starting with # or ; are
-    ignored. This may be used for commenting. Lines ending
-    in a backslash are concatenated with the following
-    line while reading and the backslash is replaced by a
-    space character. This may be used to wrap long lines.</para>
-
+    <xi:include href="standard-options.xml" xpointer="bool-fmt">
   </refsect1>
 
   <refsect1>

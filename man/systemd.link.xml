@@ -82,6 +82,8 @@
     shipped by the system, any user-supplied
     <filename>.link</filename> should hence have a lexically earlier
     name to be considered at all.</para>
+
+    <xi:include href="standard-options.xml" xpointer="bool-fmt">
   </refsect1>
 
   <refsect1>

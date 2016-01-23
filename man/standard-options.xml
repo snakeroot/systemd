@@ -36,4 +36,12 @@
       footer with hints.</para>
     </listitem>
   </varlistentry>
+
+  <varlistentry id='bool-fmt'>
+    <para>Boolean arguments used in these settings files can be
+    written in the formats described in
+    <citerefentry><listrefentry>systemd.unit</listrefentry><manvolnum>5</manvolnum></citerefentry>.
+    </para>
+  </varlistentry>
+
 </variablelist>
